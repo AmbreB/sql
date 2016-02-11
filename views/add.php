@@ -7,7 +7,7 @@
 		<input type="text" id="nom" name="nom" placeholder="Entrez un nom">
 	</div>
 	<div class="field">
-		<label for="nom">Prenom</label>
+		<label for="prenom">Prenom</label>
 		<input type="text" name="prenom" id="prenom" placeholder="Entrez un prénom">
 	</div>
 	<div class="field">
@@ -15,7 +15,7 @@
 		<input type="date" name="naissance" id="naissance" placeholder="Entrez une date de naissance : AAAA-MM-JJ">
 	</div>
 	<div class="field">
-		<label for="nom">Telephone</label>
+		<label for="tel">Telephone</label>
 		<input type="text" name="tel" id="tel" placeholder="Entrez un numéro de téléphone">
 	</div>
 	<div class="field">

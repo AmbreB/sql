@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div class="ui menu">
-		<a href="?page=add" class="item">Add user</a>
 		<a href="?page=list" class="item">User list</a>
+		<a href="?page=add" class="item">Add user</a>
 	</div>
 	<div class="container">

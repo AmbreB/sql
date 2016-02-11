@@ -6,4 +6,4 @@
 	</li>
 <?php endforeach?>
 </ul>
-<a href="../views/add.php"><button class='ui green button'>Add user</button></a>
+<a href="?page=add"><button class='ui green button'>Add user</button></a>

@@ -3,4 +3,8 @@
 <p>Date de naissance : <?php echo $user->naissance ?></p>
 <p>Adresse : <?php echo $user->adresse ?></p>
 
-<a href="?page=edit&id=<?php echo $_GET['id']; ?>"><button class='ui green button'>Modifier user</button></a>
+<?php foreach ($msgs as $msg) : ?>
+	<p class="ui segment attached"><?php echo $msg->content ?></p>
+<?php endforeach; ?>
+
+</br><a href="?page=edit&id=<?php echo $_GET['id']; ?>"><button class='ui green button'>Modifier user</button></a>

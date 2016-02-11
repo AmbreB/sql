@@ -7,15 +7,15 @@
 		<input type="text" id="nom" name="nom" value="<?php echo $editable->nom; ?>">
 	</div>
 	<div class="field">
-		<label for="nom">Prenom</label>
+		<label for="prenom">Prenom</label>
 		<input type="text" name="prenom" id="prenom" value="<?php echo $editable->prenom; ?>">
 	</div>
 	<div class="field">
-		<label for="nom">Date</label>
+		<label for="naissance">Date</label>
 		<input type="date" name="naissance" id="naissance" value="<?php echo $editable->naissance; ?>">
 	</div>
 	<div class="field">
-		<label for="nom">Nom</label>
+		<label for="tel">Nom</label>
 		<input type="text" name="tel" id="tel" value="<?php echo $editable->tel; ?>">
 	</div>
 	<div class="field">

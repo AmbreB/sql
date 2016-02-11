@@ -12,6 +12,10 @@ function getUser(){
 
 	return $person;
 }
+function getUserMessage($id){
+	$msgs = ORM::for_table('messages')->where('user_id', $id)->find_many();
+	return $msgs;
+}
 function getPeople(){
 	$people = ORM::for_table('users')->find_many();
 	return $people;
@@ -62,6 +66,7 @@ function start(){
 	}
 	if (isset($_GET['id'])) {
 		$user = getUser();
+		$msgs = getUserMessage($_GET['id']);
 		require '../views/show.php';
 	}
 	if(isset($_GET['page']) && $_GET['page'] === 'edit') {
